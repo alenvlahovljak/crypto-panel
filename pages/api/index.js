@@ -1,1 +1,1 @@
-export { default as cryptoAPI } from './crypto';
+export { default as currencies } from './currencies';

@@ -1,0 +1,3 @@
+const GET_CURRENCIES_META = 'SET_CURRENCIES_META';
+
+export default { GET_CURRENCIES_META };

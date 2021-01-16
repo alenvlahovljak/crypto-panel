@@ -1,8 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33d5684f-a632-4802-a39b-f98fec5da3dd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="33d5684f-a632-4802-a39b-f98fec5da3dd" name="Default Changelist" comment="fix README.md">
+      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.flowconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/UI/Header/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/UI/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/currencies/Breadcumbs/Breadcumbs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/currencies/Currencies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/currencies/Pagination/Pagination.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/currencies/Table/Table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/context/actionTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/context/currencies-contex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/api/currencies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/api/crypto.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/crypto.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/api/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/currencies/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/currencies/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/axios.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/axios.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +45,9 @@
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
   </component>
+  <component name="JsFlowSettings">
+    <exe-path>$PROJECT_DIR$/node_modules/flow-bin</exe-path>
+  </component>
   <component name="ProjectId" id="1n9CfZAjvPnOgF9N42gQUJn5qtr" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -31,6 +57,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.15.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.21" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -39,8 +68,14 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/components/UI" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -50,8 +85,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610793025713</updated>
-      <workItem from="1610793030639" duration="6671000" />
+      <workItem from="1610793030639" duration="25721000" />
     </task>
+    <task id="LOCAL-00001" summary="fix README.md">
+      <created>1610804872451</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610804872451</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -67,6 +110,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix README.md" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
