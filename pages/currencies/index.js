@@ -1,20 +1,8 @@
 import React, { useState } from 'react';
 
-import {
-    Collapse,
-    Navbar,
-    NavbarToggler,
-    NavbarBrand,
-    Nav,
-    NavItem,
-    NavLink,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem
-} from 'reactstrap';
+import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 
-const Home = () => {
+const Currencies = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
@@ -42,4 +30,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+export default Currencies;

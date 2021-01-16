@@ -1,34 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Crypto Live
 
-## Getting Started
+### Start
+1. `yarn proxy` ( hosts app at 3000 )
 
-First, run the development server:
+### Build
+1. `yarn build`
+2. `yarn start:next` ( hosts built app at 3000 )
 
-```bash
-npm run dev
-# or
-yarn dev
+### Coding guides
+1. Branch from **develop**, name your new branch feature or ticket name related. Upon finishing the feature create MR to develop.
+2. Organize folder structure in the following way
 ```
+    -> Component
+        -> Component
+        -> Component
+            -> Component.js
+            -> Component.module.css
+            
+```
+3. Import defaults as you name them
+```js
+    //Do
+    import MenuHeader from './MenuHeader/MenuHeader'
+    
+    //Don't
+    import H from './MenuHeader/MenuHeader'
+    import Header from './MenuHeader/MenuHeader'
+```
+4. Import styles in the following way
+```js
+    import styles from './Component.module.css'
+```
+5. Combine classes using classnames, import in the following way
+```js 
+    import cn from "classnames"
+```
+6. Name your classes and ids in the following way
+```css
+.class-name {
+    ...
+```
+7. Organize imports. First import modules, utility functions, other components, than styles
+```js
+    import React from 'react'
+    import cn from 'classnames'
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+    import { helperFunction } from '@/util/helper'
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+    import Component1 from '@/components/Component1/Component1'
+    import Component2 from '@/components/Component2/Component2'
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+    import styles from './Component.module.css'
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+    const Component = props => {
+        ....
+```
+8. Please do not have files (dummy, test, alex, peter, john...) in your MRs. Make your work readable to others and your future self.
