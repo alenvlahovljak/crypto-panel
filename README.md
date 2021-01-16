@@ -1,7 +1,7 @@
 # Crypto Live
 
 ### Start
-1. `yarn proxy` ( hosts app at 3000 )
+1. `yarn dev` ( hosts app at 3000 )
 
 ### Build
 1. `yarn build`
